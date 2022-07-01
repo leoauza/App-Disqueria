@@ -1,0 +1,50 @@
+[
+    {
+      "precio": 500,
+      "id": 1,
+      "title": "Elva Kvinnor I Ett Hus",
+      "artist": "Agnetha Fältskog",
+      "format": "LP",
+      "thumbnailUrl": "https://i.discogs.com/zeiOJwzH8rumwOegnDS_32QZrK1xu3RgAxH_8uIp-Xs/rs:fit/g:sm/q:90/h:553/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwMDYw/MzktMTM4OTY3MTQx/MS0zMTU4LmpwZWc.jpeg"
+    },
+    {
+      "precio": 300,
+      "id": 2,
+      "title": "Wadu-Wadu",
+      "artist": "Virus",
+      "format": "Cassette",
+      "thumbnailUrl": "https://i.discogs.com/ngkuI5dFxpdMs1NtRxksU-wbcXGP6DNf5tclkQG94yk/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM4Njg4/ODgtMTM0NzQ5NTI1/NC00MzI1LmpwZWc.jpeg"
+    },
+    {
+      "precio": 100,
+      "id": 3,
+      "title": "Ella Es Tan Inusual",
+      "artist": "Cyndi Lauper",
+      "format": "CD",
+      "thumbnailUrl": "https://i.discogs.com/tl4vaYvMBeTYw94XAfVQ3fiEQUfi1klxnEyTs2Wgrio/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU0OTE0/OTMtMTM5NDgxODM2/Mi02Njk0LmpwZWc.jpeg"
+    },
+    {
+      "precio": 50,
+      "id": 4,
+      "title": "Soda Stereo",
+      "artist": "Soda Stereo",
+      "format": "LP",
+      "thumbnailUrl": "https://i.discogs.com/nKo6eGLClssc-JIkUaznVgIRf5PDs4DWiqkAr4tDtss/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4OTQ4/OTUtMTM0NzMzMjg3/Ny03MTAwLmpwZWc.jpeg"
+    },
+    {
+      "precio": 10,
+      "id": 5,
+      "title": "Soda Stereo",
+      "artist": "Soda Stereo",
+      "format": "Cassette",
+      "thumbnailUrl": "https://i.discogs.com/iImR_dh-UaKU59rdxjK_NrJNFTUPeNEtsVO1Nuwlb64/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0MTQ4/OTA3LTE1Njg3NDA5/OTQtNjQ4NS5qcGVn.jpeg"
+    },
+    {
+      "precio": 150,
+      "id": 6,
+      "title": "Colores Verdaderos",
+      "artist":"Cyndi Lauper",
+      "format": "LP",
+      "thumbnailUrl": "https://i.discogs.com/GryxJDSc82XjHDp6LOdEvZJTQFqroqxk0NPvSsY-RK8/rs:fit/g:sm/q:90/h:600/w:595/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0MTcz/MjA4LTE1ODc0MDQz/MjAtMjA0OC5qcGVn.jpeg"
+    }
+  ]
