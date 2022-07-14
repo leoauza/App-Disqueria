@@ -1,9 +1,0 @@
-header nav.navbar, header nav.bg-light {
-    padding-top: 0%;
-    --bs-bg-opacity: none;
-    font-family: 'DolceVita';
-}
-
-header nav.navbar div.container-fluid, header nav.bg-light div.container-fluid {
-    background: linear-gradient(to bottom, #00ccff, #f700ff);
-}

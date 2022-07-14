@@ -1,10 +1,9 @@
-import './ItemDetailContainer.css'
+import './ItemListContainer.css'
 import { useEffect, useState } from 'react';
-import ItemDetail from './ItemDetail'
+import ItemList from '../ItemList.js'
+import ItemCount from '../ItemCount/ItemCount'
 
-function ItemDetailContainer() {
-
-    const getItem = () => /* Esta funcion debe return promise con delay */
+function ItemListContainer() {
 
   const [info, setInfo] = useState ([])
     
@@ -14,7 +13,7 @@ function ItemDetailContainer() {
   
 
   useEffect(()=>{
-    fetch('data.json', {timeout: 3000}) // Llama al Response completo
+    fetch('data.json') // Llama al Response completo
     .then((resp) => resp.json()) // Extrae la info a utilizar en el Respose
     .then((data) => setInfo(data)) // "Setea" la nfo en ntro State
     .catch((err) => console.log(err))
@@ -23,7 +22,7 @@ function ItemDetailContainer() {
   return (
     <section className='cuerpo'>
       <div>
-        <h2>Catálogo de products</h2>
+        <h2>Catálogo de productos</h2>
         <p>Elegí tus products de esta lista:</p>
         </div>
         <div className='catalogo'>
@@ -34,4 +33,4 @@ function ItemDetailContainer() {
   );
 }
 
-export default ItemDetailContainer;
+export default ItemListContainer;

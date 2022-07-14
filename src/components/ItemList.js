@@ -1,4 +1,4 @@
-import Item from './Item.js'
+import Item from './Item/Item.js'
 
 function ItemList({products}) {
     return (

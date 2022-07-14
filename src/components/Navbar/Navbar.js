@@ -1,7 +1,23 @@
-import CartWidget from './CartWidget';
+import CartWidget from '../CartWidget';
 import './Navbar.css';
+import { NavLink } from 'react-router-dom';
 
+function Navbar(){
+  return (
+    <header className="header">
+      <ul>
+        <li><NavLink activeClassName='active' to='/home'>Home</NavLink></li>
+        <li><NavLink activeClassName='active' to='/products'>Productos</NavLink></li>
+        <div>
+        <CartWidget />
+      </div>
+      </ul>
+    </header>
+  )
+}
+/*
 function Navbar() {
+
   return (
     <header>
     <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light">
@@ -32,8 +48,14 @@ function Navbar() {
                 <li><a className="dropdown-item second-dropdown" href="#contacto">CONTACTO</a></li>
               </ul>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="https://www.discogs.com/label/307009-Discos-CBS-SAICF" target="_blank">CATÁLOGO</a>
+            <li className="nav-item dropdown">
+              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                CATÁLOGO
+              </a>
+              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a className="dropdown-item first-dropdown" href='#'>Vinyls</a></li>
+                <li><a className="dropdown-item second-dropdown" href="#">Cassettes</a></li>
+              </ul>
             </li>
           </ul>
         </div>
@@ -43,5 +65,6 @@ function Navbar() {
   </header>
   );
 }
+*/
 
 export default Navbar;
